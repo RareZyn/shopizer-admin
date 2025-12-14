@@ -9,7 +9,6 @@ import { TranslateService } from '@ngx-translate/core';
 import { validators } from '../../../shared/validation/validators';
 import { StorageService } from '../../../shared/services/storage.service';
 // import { TypesService } from '../../types/services/types.service';
-import { error } from '@angular/compiler/src/util';
 @Component({
   standalone: false,
   selector: 'ngx-variation-add',

@@ -3,6 +3,7 @@ import { StoreService } from '../../store-management/services/store.service';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
+    standalone: false,
     selector: 'ngx-store-autocomplete',
     templateUrl: './store-autocomplete.html',
     styleUrls: ['./store-autocomplete.scss']

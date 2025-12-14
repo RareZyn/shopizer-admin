@@ -4,7 +4,6 @@ import { ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 @Component({
   standalone: false,
-  standalone: false,
   selector: 'ngx-option-add',
   templateUrl: './add.component.html',
   styleUrls: ['./add.component.scss']

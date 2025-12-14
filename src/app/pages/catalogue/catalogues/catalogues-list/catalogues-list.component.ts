@@ -28,12 +28,7 @@ export class CataloguesListComponent implements OnInit {
   totalCount;
 
   // request params
-  params = {
-    store: this.storageService.getMerchant(),
-    lang: this.storageService.getLanguage(),
-    count: this.perPage,
-    page: 0
-  };
+  params: any;
 
   constructor(
     private router: Router,
@@ -45,6 +40,12 @@ export class CataloguesListComponent implements OnInit {
     private storeService: StoreService,
     private toastr: ToastrService,
   ) {
+    this.params = {
+      store: this.storageService.getMerchant(),
+      lang: this.storageService.getLanguage(),
+      count: this.perPage,
+      page: 0
+    };
   }
 
   ngOnInit() {

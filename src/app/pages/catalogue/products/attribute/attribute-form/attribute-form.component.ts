@@ -32,6 +32,7 @@ export class AttributeFormComponent implements OnInit {
   currency = '';
 
   perPage = 50;
+  params: any;
 
   constructor(
     private fb: FormBuilder,
@@ -44,8 +45,16 @@ export class AttributeFormComponent implements OnInit {
     private errorService: ErrorService,
     protected ref: NbDialogRef<AttributeFormComponent>
   ) {
+    this.params = {
+      store: this.storageService.getMerchant(),
+      lang: "_all",
+      name: null,
+      count: this.perPage,
+      page: 0,
+    };
+
     forkJoin([
-      this.optionService.getListOfOptions({}), 
+      this.optionService.getListOfOptions({}),
       this.optionValuesService.getListOfOptionValues({})])
       .subscribe(([optionRes, optionValueRes]) => {
         optionRes.options.forEach((option) => {
@@ -57,15 +66,6 @@ export class AttributeFormComponent implements OnInit {
         this.options.push({ value: '', label: 'Please select options' });
         this.optionValues.push({ value: '', label: 'Please select option values' });
       });
-  };
-
-  
-  params =  {
-      store: this.storageService.getMerchant(),
-      lang: "_all",
-      name: null,
-      count: this.perPage,
-      page: 0,
   }
 
 

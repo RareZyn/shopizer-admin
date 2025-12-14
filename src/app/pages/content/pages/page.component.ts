@@ -24,12 +24,7 @@ export class PageComponent {
   settings = {};
 
   // request params
-  params = {
-    lang: this.storageService.getLanguage(),
-    store: this.storageService.getMerchant(),
-    count: this.perPage,
-    page: 0
-  };
+  params: any;
 
   source: any = new LocalDataSource();
   tempData: Array<any> = [];
@@ -44,6 +39,13 @@ export class PageComponent {
     private storageService: StorageService,
     private translate: TranslateService
   ) {
+    this.params = {
+      lang: this.storageService.getLanguage(),
+      store: this.storageService.getMerchant(),
+      count: this.perPage,
+      page: 0
+    };
+
     this.getStoreList()
 
     this.translate.onLangChange.subscribe((lang) => {

@@ -28,12 +28,7 @@ export class BrandsListComponent implements OnInit {
   totalCount;
 
   // request params
-  params = {
-    lang: this.storageService.getLanguage(),
-    store: this.storageService.getMerchant(),
-    count: this.perPage,
-    page: 0
-  };
+  params: any;
 
   constructor(
     private brandService: BrandService,
@@ -44,6 +39,12 @@ export class BrandsListComponent implements OnInit {
     private storageService: StorageService,
     private toastr: ToastrService,
   ) {
+    this.params = {
+      lang: this.storageService.getLanguage(),
+      store: this.storageService.getMerchant(),
+      count: this.perPage,
+      page: 0
+    };
   }
 
   ngOnInit() {

@@ -30,11 +30,7 @@ export class ManageInventoryComponent implements OnInit {
   totalCount;
 
   // server params
-  params = {
-    count: this.perPage,
-    page: 0,
-    lang: this.storageService.getLanguage(),
-  };
+  params: any;
   settings = {};
 
   constructor(
@@ -48,6 +44,11 @@ export class ManageInventoryComponent implements OnInit {
     private storageService: StorageService,
     private toastr: ToastrService,
   ) {
+    this.params = {
+      count: this.perPage,
+      page: 0,
+      lang: this.storageService.getLanguage(),
+    };
 
     this.productId = this.activatedRoute.snapshot.paramMap.get('productId');
     this.productService.getProductById(this.productId).subscribe(product => {

@@ -2,9 +2,7 @@ import { ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
 import { PaymentService } from '../services/payment.service';
 import { Router } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
-
 import { TranslateService } from '@ngx-translate/core';
-import { error } from '@angular/compiler/src/util';
 
 @Component({
   standalone: false,

@@ -131,8 +131,8 @@ const NB_THEME_PROVIDERS = [
 ];
 
 @NgModule({
-  imports: [...BASE_MODULES, ...NB_MODULES, TranslateModule],
-  exports: [...BASE_MODULES, ...NB_MODULES, ...COMPONENTS, ...PIPES],
+  imports: [...BASE_MODULES, ...NB_MODULES, TranslateModule.forChild()],
+  exports: [...BASE_MODULES, ...NB_MODULES, ...COMPONENTS, ...PIPES, TranslateModule],
   declarations: [...COMPONENTS, ...PIPES, ErrorComponent],
 })
 export class ThemeModule {

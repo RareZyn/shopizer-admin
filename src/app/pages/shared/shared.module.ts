@@ -47,7 +47,11 @@ import { DragDropModule } from "@angular/cdk/drag-drop";
     TranslateModule,
     TreeTableModule,
     FilePickerModule,
-    DragDropModule
+    DragDropModule,
+    PickListModule,
+    MultiSelectModule,
+    DropdownModule,
+    AutoCompleteModule
   ],
   exports: [
     Ng2SmartTableModule,
