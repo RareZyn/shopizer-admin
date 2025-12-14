@@ -4,6 +4,7 @@ import { User } from '../../shared/models/user';
 
 @Component({
   selector: 'ngx-create-new-user',
+  standalone: false,
   templateUrl: './create-new-user.component.html',
   styleUrls: ['./create-new-user.component.scss']
 })

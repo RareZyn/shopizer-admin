@@ -9,22 +9,19 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es2015",
+    "skipLibCheck": true,
+    "target": "ES2022",
     "typeRoots": [
       "node_modules/@types"
     ],
     "lib": [
-      "es2017",
+      "ES2022",
       "dom"
-    ],
-    "plugins": [
-      {
-        "name": "tslint-language-service"
-      }
     ]
   },
   "angularCompilerOptions": {
     "enableIvy": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "strictInjectionParameters": true
   }
 }

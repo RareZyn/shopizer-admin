@@ -52,7 +52,7 @@ export class GlobalHttpInterceptorService implements HttpInterceptor {
         } else if (error.status === 401) {
           this.authService.logout();
         }
-        return throwError(error);
+        return throwError(() => error);
       })
     );
   }

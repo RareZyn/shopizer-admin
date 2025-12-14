@@ -5,6 +5,7 @@ import { UserService } from '../../shared/services/user.service';
 
 @Component({
   selector: 'ngx-user-details',
+  standalone: false,
   templateUrl: './user-details.component.html',
   styleUrls: ['./user-details.component.scss']
 })

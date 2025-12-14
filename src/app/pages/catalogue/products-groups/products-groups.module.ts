@@ -28,8 +28,7 @@ import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
     NgxSummernoteModule,
     CustomModule,
     NgMultiSelectDropDownModule.forRoot()
-  ],
-  entryComponents: [ActiveButtonComponent]
+  ]
 })
 export class ProductsGroupsModule {
 }

@@ -14,6 +14,7 @@ import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'ngx-user-form',
+  standalone: false,
   templateUrl: './user-form.component.html',
   styleUrls: ['./user-form.component.scss']
 })

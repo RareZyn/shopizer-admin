@@ -9,6 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'ngx-change-password',
+  standalone: false,
   templateUrl: './change-password.component.html',
   styleUrls: ['./change-password.component.scss']
 })

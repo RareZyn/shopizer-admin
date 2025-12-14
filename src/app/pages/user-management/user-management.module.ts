@@ -30,8 +30,7 @@ import { CustomModule } from '../custom-component/custom.module';
     NbDialogModule.forChild(),
     SharedModule,
     CustomModule
-  ],
-  entryComponents: [ButtonRenderUserComponent],
+  ]
 })
 export class UserManagementModule {
 }

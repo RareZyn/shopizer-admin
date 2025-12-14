@@ -31,7 +31,6 @@ import { TreeModule, TreeDraggedElement } from 'angular-tree-component';
     NbDialogModule.forChild(),
     TreeModule
   ],
-  entryComponents: [ButtonRenderComponent],
   providers: [TreeDraggedElement]
 })
 

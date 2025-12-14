@@ -5,6 +5,7 @@ import { User } from '../../shared/models/user';
 
 @Component({
   selector: 'ngx-user-profile',
+  standalone: false,
   templateUrl: './user-profile.component.html',
   styleUrls: ['./user-profile.component.scss']
 })
