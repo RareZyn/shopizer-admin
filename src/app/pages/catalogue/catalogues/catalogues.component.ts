@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-catalogues',
   templateUrl: './catalogues.component.html',
   styleUrls: ['./catalogues.component.scss']

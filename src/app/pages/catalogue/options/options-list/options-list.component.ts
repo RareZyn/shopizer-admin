@@ -11,6 +11,7 @@ import { StorageService } from '../../../shared/services/storage.service';
 import { StoreService } from '../../../store-management/services/store.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-options-list',
   templateUrl: './options-list.component.html',
   styleUrls: ['./options-list.component.scss']

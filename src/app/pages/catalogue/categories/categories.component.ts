@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-categories',
   templateUrl: './categories.component.html',
   styleUrls: ['./categories.component.scss']

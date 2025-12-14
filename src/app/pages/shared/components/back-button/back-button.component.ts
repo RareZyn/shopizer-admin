@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
 
 @Component({
+  standalone: false,
   selector: 'ngx-back-button',
   templateUrl: './back-button.component.html',
   styleUrls: ['./back-button.component.scss']

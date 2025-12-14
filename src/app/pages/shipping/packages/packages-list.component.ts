@@ -9,6 +9,7 @@ import { SharedService } from '../services/shared.service';
 import { error } from '@angular/compiler/src/util';
 import { ToastrService } from 'ngx-toastr';
 @Component({
+  standalone: false,
   selector: 'ngx-packages-list',
   templateUrl: './packages-list.component.html',
   styleUrls: ['./packages-list.component.scss']

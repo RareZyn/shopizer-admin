@@ -9,6 +9,7 @@ import { ToastrService } from 'ngx-toastr';
 import { ErrorService } from '../../shared/services/error.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-list',
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']

@@ -15,6 +15,7 @@ import { ToastrService } from 'ngx-toastr';
 
 import { ShowcaseDialogComponent } from '../../../../shared/components/showcase-dialog/showcase-dialog.component';
 @Component({
+  standalone: false,
   selector: 'ngx-product-property',
   templateUrl: './product-property.component.html',
   styleUrls: ['./product-property.component.scss']

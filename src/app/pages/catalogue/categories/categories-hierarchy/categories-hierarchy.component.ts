@@ -5,6 +5,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { StorageService } from '../../../shared/services/storage.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-categories-hierarchy',
   templateUrl: './categories-hierarchy.component.html',
   styleUrls: ['./categories-hierarchy.component.scss']

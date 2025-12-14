@@ -10,6 +10,7 @@ import { validators } from '../../../shared/validation/validators';
 import { slugify } from '../../../shared/utils/slugifying';
 
 @Component({
+  standalone: false,
   selector: 'ngx-brand-form',
   templateUrl: './brand-form.component.html',
   styleUrls: ['./brand-form.component.scss']

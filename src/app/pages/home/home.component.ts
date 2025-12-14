@@ -10,6 +10,7 @@ import { environment } from '../../../environments/environment';
 
 
 @Component({
+  standalone: false,
   selector: 'ngx-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']

@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, OnInit, Output, ViewChild } from '@angu
 import { CrudService } from '../../../pages/shared/services/crud.service';
 import { NbDialogRef } from '@nebular/theme';
 @Component({
+  standalone: false,
   selector: 'ngx-image-browser',
   templateUrl: './image-browser.component.html',
   styleUrls: ['./image-browser.component.scss']

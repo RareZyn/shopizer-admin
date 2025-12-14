@@ -15,6 +15,7 @@ import { ImageBrowserComponent } from '../../../../@theme/components/image-brows
 declare var jquery: any;
 declare var $: any;
 @Component({
+  standalone: false,
   selector: 'ngx-category-form',
   templateUrl: './category-form.component.html',
   styleUrls: ['./category-form.component.scss']

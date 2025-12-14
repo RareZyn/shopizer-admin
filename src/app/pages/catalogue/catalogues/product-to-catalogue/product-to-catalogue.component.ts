@@ -8,6 +8,7 @@ import { ProductService } from '../../products/services/product.service';
 import { CategoryService } from '../../categories/services/category.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-product-to-catalogue',
   templateUrl: './product-to-catalogue.component.html',
   styleUrls: ['./product-to-catalogue.component.scss']

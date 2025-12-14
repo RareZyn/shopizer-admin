@@ -10,6 +10,7 @@ import { environment } from '../environments/environment';
 import { ConfigService } from './pages/shared/services/config.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-app',
   template: '<div><router-outlet></router-outlet></div>',
   // template: '<div *ngIf="configService.languages.length!==0"><router-outlet></router-outlet></div>',

@@ -16,8 +16,8 @@ import { ListingService } from '../../shared/services/listing.service';
 
 
 @Component({
-  selector: 'ngx-users-list',
   standalone: false,
+  selector: 'ngx-users-list',
   templateUrl: './users-list.component.html',
   styleUrls: ['./users-list.component.scss']
 })

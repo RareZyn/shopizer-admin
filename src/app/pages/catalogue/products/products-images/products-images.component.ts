@@ -10,6 +10,7 @@ import { Image } from '../../../shared/models/image';
 import { ImageBrowserComponent } from '../../../../@theme/components/image-browser/image-browser.component';
 
 @Component({
+  standalone: false,
   selector: 'ngx-products-images',
   templateUrl: './products-images.component.html',
   styleUrls: ['./products-images.component.css']

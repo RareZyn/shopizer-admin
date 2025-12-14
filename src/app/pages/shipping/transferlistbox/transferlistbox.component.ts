@@ -8,6 +8,7 @@ import { Subscription } from 'rxjs';
 
 
 @Component({
+  standalone: false,
   selector: 'app-transferlistbox',
   templateUrl: './transferlistbox.component.html',
   styleUrls: ['./transferlistbox.component.scss']

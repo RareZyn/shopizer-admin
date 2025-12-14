@@ -6,6 +6,7 @@ import { ConnectionStatusService } from './shared/services/connection-status.ser
 import { NbToastRef, NbToastrService } from '@nebular/theme';
 import { Router } from '@angular/router';
 @Component({
+  standalone: false,
   selector: 'ngx-pages',
   styleUrls: ['pages.component.scss'],
   template: `

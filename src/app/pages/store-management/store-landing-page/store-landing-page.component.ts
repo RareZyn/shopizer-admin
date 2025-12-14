@@ -11,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
+  standalone: false,
   selector: 'ngx-store-landing-page',
   templateUrl: './store-landing-page.component.html',
   styleUrls: ['./store-landing-page.component.scss']

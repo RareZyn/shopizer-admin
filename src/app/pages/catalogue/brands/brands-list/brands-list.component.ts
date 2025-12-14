@@ -12,6 +12,7 @@ import { ToastrService } from 'ngx-toastr';
 import { listenerCount } from 'process';
 
 @Component({
+  standalone: false,
   selector: 'ngx-brands-list',
   templateUrl: './brands-list.component.html',
   styleUrls: ['./brands-list.component.scss']

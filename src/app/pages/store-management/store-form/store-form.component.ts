@@ -14,6 +14,7 @@ import { validators } from '../../shared/validation/validators';
 import { forkJoin } from 'rxjs';
 
 @Component({
+  standalone: false,
   selector: 'ngx-store-form',
   templateUrl: './store-form.component.html',
   styleUrls: ['./store-form.component.scss']

@@ -28,6 +28,7 @@ export interface TabItem {
 }
 
 @Component({
+  standalone: false,
   selector: 'ngx-product-form',
   templateUrl: './product-form.component.html',
   styleUrls: ['./product-form.component.scss']

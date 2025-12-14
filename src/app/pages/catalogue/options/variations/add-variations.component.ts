@@ -11,6 +11,7 @@ import { StorageService } from '../../../shared/services/storage.service';
 // import { TypesService } from '../../types/services/types.service';
 import { error } from '@angular/compiler/src/util';
 @Component({
+  standalone: false,
   selector: 'ngx-variation-add',
   templateUrl: './add-variations.component.html',
   styleUrls: ['./add-variations.component.scss']

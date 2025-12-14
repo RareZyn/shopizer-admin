@@ -13,6 +13,7 @@ import { ShowcaseDialogComponent } from '../../shared/components/showcase-dialog
 import { ListingService } from '../../shared/services/listing.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-stores-list',
   templateUrl: './stores-list.component.html',
   styleUrls: ['./stores-list.component.scss']

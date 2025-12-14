@@ -10,6 +10,7 @@ import { StorageService } from '../../../shared/services/storage.service';
 import { Router } from '@angular/router';
 
 @Component({
+  standalone: false,
     selector: 'ngx-groups-list',
     templateUrl: './groups-list.component.html',
     styleUrls: ['./groups-list.component.scss']

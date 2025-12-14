@@ -12,6 +12,7 @@ let weightBased = require('../services/weightbased.json');
 import { SharedService } from '../services/shared.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-shipping-configure',
   templateUrl: './configure.component.html',
   styleUrls: ['./configure.component.scss'],

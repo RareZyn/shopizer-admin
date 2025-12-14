@@ -6,6 +6,7 @@ import { LocalDataSource } from 'ng2-smart-table';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-retailer-stores',
   templateUrl: './retailer-stores.component.html',
   styleUrls: ['./retailer-stores.component.scss']

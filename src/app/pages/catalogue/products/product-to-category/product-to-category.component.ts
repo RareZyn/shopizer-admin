@@ -10,6 +10,7 @@ import { forkJoin } from 'rxjs';
 import { Location } from '@angular/common';
 
 @Component({
+  standalone: false,
     selector: 'ngx-product-to-category',
     templateUrl: './product-to-category.component.html',
     styleUrls: ['./product-to-category.component.scss']

@@ -6,6 +6,7 @@ import { StorageService } from '../../../shared/services/storage.service';
 import { forkJoin } from 'rxjs';
 
 @Component({
+  standalone: false,
   selector: 'ngx-products-groups-list',
   templateUrl: './products-groups-list.component.html',
   styleUrls: ['./products-groups-list.component.scss']

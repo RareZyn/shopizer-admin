@@ -3,6 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Router } from '@angular/router';
 
 @Component({
+  standalone: false,
   selector: 'ngx-error',
   templateUrl: './error.component.html',
   styleUrls: ['./error.component.scss']

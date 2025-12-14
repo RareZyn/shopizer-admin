@@ -12,6 +12,7 @@ import { ShowcaseDialogComponent } from '../../shared/components/showcase-dialog
 import { NbDialogService } from '@nebular/theme';
 import { ToastrService } from 'ngx-toastr';
 @Component({
+  standalone: false,
   selector: 'ngx-tax-class-list',
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']

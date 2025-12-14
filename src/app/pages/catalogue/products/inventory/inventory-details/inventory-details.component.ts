@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { InventoryService } from '../../services/inventory.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-inventory-details',
   templateUrl: './inventory-details.component.html',
   styleUrls: ['./inventory-details.component.scss']

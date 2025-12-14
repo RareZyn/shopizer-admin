@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { BrandService } from '../services/brand.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-brand-details',
   templateUrl: './brand-details.component.html',
   styleUrls: ['./brand-details.component.scss']

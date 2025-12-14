@@ -14,6 +14,7 @@ declare var jquery: any;
 declare var $: any;
 
 @Component({
+  standalone: false,
   selector: 'add-page',
   templateUrl: './add-page.component.html',
   styleUrls: ['./add-page.component.scss'],

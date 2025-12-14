@@ -10,6 +10,7 @@ import { SharedService } from '../services/shared.service';
 
 
 @Component({
+  standalone: false,
   selector: 'ngx-origin',
   templateUrl: './origin.component.html',
   styleUrls: ['./origin.component.scss']

@@ -3,6 +3,8 @@ import { CrudService } from '../../shared/services/crud.service';
 import { ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
 @Component({
+  standalone: false,
+  standalone: false,
   selector: 'ngx-value-add',
   templateUrl: './add.component.html',
   styleUrls: ['./add.component.scss']

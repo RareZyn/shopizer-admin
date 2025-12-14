@@ -2,6 +2,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
+  standalone: false,
   selector: 'ngx-custom',
   templateUrl: './custom.component.html',
   styleUrls: ['./custom.component.scss']

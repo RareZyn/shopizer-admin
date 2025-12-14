@@ -5,6 +5,7 @@ import { StoreService } from '../../store-management/services/store.service';
 import { StorageService } from '../../shared/services/storage.service';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
+  standalone: false,
   selector: 'shipping-config',
   templateUrl: './configuration.component.html',
   styleUrls: ['./configuration.component.scss'],

@@ -7,6 +7,7 @@ import { Location, PlatformLocation } from '@angular/common';
 // import { ToastrService } from 'ngx-toastr';
 
 @Component({
+  standalone: false,
   selector: 'ngx-forgot',
   templateUrl: './forgot.component.html',
   styleUrls: ['./forgot.component.scss']

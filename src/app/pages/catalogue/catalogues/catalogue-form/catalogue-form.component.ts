@@ -11,6 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Description } from '../../../shared/models/description';
 
 @Component({
+  standalone: false,
   selector: 'ngx-catalogue-form',
   templateUrl: './catalogue-form.component.html',
   styleUrls: ['./catalogue-form.component.scss']

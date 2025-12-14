@@ -2,6 +2,7 @@ import { NbMenuService } from '@nebular/theme';
 import { Component } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-five-hundred',
   styleUrls: ['./five-hundred.component.scss'],
   templateUrl: './five-hundred.component.html',

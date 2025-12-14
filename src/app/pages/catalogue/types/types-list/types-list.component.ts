@@ -12,6 +12,7 @@ import { LocalDataSource } from 'ng2-smart-table';
 import { ListingService } from '../../../shared/services/listing.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-types-list',
   templateUrl: './types-list.component.html',
   styleUrls: ['./types-list.component.scss']

@@ -5,6 +5,7 @@ import { ToastrService } from 'ngx-toastr';
 import { TaxService } from '../services/tax.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-tax-class-add',
   templateUrl: './add.component.html',
   styleUrls: ['./add.component.scss'],

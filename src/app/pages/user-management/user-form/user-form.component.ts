@@ -13,8 +13,8 @@ import { StorageService } from '../../shared/services/storage.service';
 import { forkJoin } from 'rxjs';
 
 @Component({
-  selector: 'ngx-user-form',
   standalone: false,
+  selector: 'ngx-user-form',
   templateUrl: './user-form.component.html',
   styleUrls: ['./user-form.component.scss']
 })

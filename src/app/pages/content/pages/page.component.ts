@@ -10,6 +10,7 @@ import { StoreService } from '../../store-management/services/store.service';
 import { StorageService } from '../../shared/services/storage.service';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
+  standalone: false,
   selector: 'page-table',
   templateUrl: './page.component.html',
   styleUrls: ['./page.component.scss'],

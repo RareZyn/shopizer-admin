@@ -5,6 +5,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
+  standalone: false,
   template: `
     <input type="checkbox" [checked]="value" (click)="clicked()"/>
   `,

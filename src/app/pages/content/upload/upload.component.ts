@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'upload',
   templateUrl: './upload.component.html',
   styleUrls: ['./upload.component.css']

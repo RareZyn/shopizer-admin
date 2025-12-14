@@ -11,6 +11,7 @@ import { validators } from '../../../shared/validation/validators';
 import { OptionValueImageService } from '../services/option-value-image.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-option-values',
   templateUrl: './option-values.component.html',
   styleUrls: ['./option-values.component.scss']

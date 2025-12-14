@@ -14,6 +14,7 @@ import { ToastrService } from 'ngx-toastr';
 import { ListingService } from '../../../shared/services/listing.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-categories-list',
   templateUrl: './categories-list.component.html',
   styleUrls: ['./categories-list.component.scss']

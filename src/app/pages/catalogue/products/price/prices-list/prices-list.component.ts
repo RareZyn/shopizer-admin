@@ -10,6 +10,7 @@ import { InventoryService } from '../../services/inventory.service';
 import { ShowcaseDialogComponent } from '../../../../shared/components/showcase-dialog/showcase-dialog.component';
 
 @Component({
+  standalone: false,
   selector: 'ngx-prices-list',
   templateUrl: './prices-list.component.html',
   styleUrls: ['./prices-list.component.scss']

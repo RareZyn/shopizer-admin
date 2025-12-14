@@ -9,6 +9,7 @@ import { forkJoin } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
+  standalone: false,
   selector: 'ngx-store-branding',
   templateUrl: './store-branding.component.html',
   styleUrls: ['./store-branding.component.scss']

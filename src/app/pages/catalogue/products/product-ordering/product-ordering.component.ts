@@ -6,6 +6,7 @@ import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { CategoryService } from '../../categories/services/category.service';
 import { StorageService } from '../../../shared/services/storage.service';
 @Component({
+  standalone: false,
   selector: 'ngx-product-ordering',
   templateUrl: './product-ordering.component.html',
   styleUrls: ['./product-ordering.component.scss']

@@ -11,6 +11,7 @@ import { StoreService } from '../../../store-management/services/store.service';
 import { ShowcaseDialogComponent } from '../../../shared/components/showcase-dialog/showcase-dialog.component';
 
 @Component({
+  standalone: false,
   selector: 'ngx-catalogues-list',
   templateUrl: './catalogues-list.component.html',
   styleUrls: ['./catalogues-list.component.scss']

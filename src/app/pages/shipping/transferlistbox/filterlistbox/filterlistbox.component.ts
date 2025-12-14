@@ -13,6 +13,7 @@ import {
 } from "@angular/core";
 
 @Component({
+  standalone: false,
   selector: "app-filterlistbox",
   templateUrl: "./filterlistbox.component.html",
   styleUrls: ["./filterlistbox.component.scss"],

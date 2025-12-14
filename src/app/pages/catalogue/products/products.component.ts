@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-products',
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.scss']

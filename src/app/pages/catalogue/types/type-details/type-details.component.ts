@@ -12,6 +12,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import { ConfigService } from '../../../shared/services/config.service';
 @Component({
+  standalone: false,
   selector: 'ngx-types',
   templateUrl: './type-details.component.html',
   styleUrls: ['./type-details.component.scss']

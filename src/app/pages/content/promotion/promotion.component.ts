@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { QueryBuilderConfig } from 'angular2-query-builder';
 
 @Component({
+  standalone: false,
     selector: 'ngx-promotion',
     templateUrl: './promotion.component.html',
     styleUrls: ['./promotion.component.scss']

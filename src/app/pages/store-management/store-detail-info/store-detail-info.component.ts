@@ -4,6 +4,7 @@ import { StoreService } from '../services/store.service';
 import { Router } from '@angular/router';
 
 @Component({
+  standalone: false,
   selector: 'ngx-store-detail-info',
   templateUrl: './store-detail-info.component.html',
   styleUrls: ['./store-detail-info.component.scss']

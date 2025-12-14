@@ -12,6 +12,7 @@ import { StorageService } from '../../../../shared/services/storage.service';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
+  standalone: false,
   selector: 'ngx-manage-inventory',
   templateUrl: './manage-inventory.component.html',
   styleUrls: ['./manage-inventory.component.scss']

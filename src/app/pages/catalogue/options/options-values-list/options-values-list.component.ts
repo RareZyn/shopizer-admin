@@ -10,6 +10,7 @@ import { ToastrService } from 'ngx-toastr';
 import { StorageService } from '../../../shared/services/storage.service';
 import { StoreService } from '../../../store-management/services/store.service';
 @Component({
+  standalone: false,
   selector: 'ngx-options-values-list',
   templateUrl: './options-values-list.component.html',
   styleUrls: ['./options-values-list.component.scss']

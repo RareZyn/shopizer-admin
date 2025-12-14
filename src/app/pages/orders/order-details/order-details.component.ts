@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 import { parsePhoneNumberFromString, format, AsYouType } from 'libphonenumber-js';
 
 @Component({
+  standalone: false,
   selector: 'ngx-order-details',
   templateUrl: './order-details.component.html',
   styleUrls: ['./order-details.component.scss']

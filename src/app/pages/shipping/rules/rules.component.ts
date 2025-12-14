@@ -7,6 +7,7 @@ import { StoreService } from '../../store-management/services/store.service';
 import * as moment from 'moment';
 import { ToastrService } from 'ngx-toastr';
 @Component({
+  standalone: false,
     selector: 'ngx-rules',
     templateUrl: './rules.component.html',
     styleUrls: ['./rules.component.scss']

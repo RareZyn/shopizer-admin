@@ -13,6 +13,7 @@ import { ToastrService } from 'ngx-toastr';
 import { formatMoney } from '../../../../shared/validation/price-validation';
 import { NbDialogRef } from '@nebular/theme';
 @Component({
+  standalone: false,
   selector: 'ngx-attribute-form',
   templateUrl: './attribute-form.component.html',
   styleUrls: ['./attribute-form.component.scss']

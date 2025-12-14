@@ -10,6 +10,7 @@ import { StorageService } from '../../../shared/services/storage.service';
 import { TypesService } from '../../types/services/types.service';
 import { error } from '@angular/compiler/src/util';
 @Component({
+  standalone: false,
   selector: 'ngx-option-set',
   templateUrl: './option-set.component.html',
   styleUrls: ['./option-set.component.scss']

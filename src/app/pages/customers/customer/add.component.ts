@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 import { ErrorService } from '../../shared/services/error.service';
 import { forkJoin } from 'rxjs';
 @Component({
+  standalone: false,
   selector: 'ngx-add',
   templateUrl: './add.component.html',
   styleUrls: ['./add.component.scss']

@@ -4,8 +4,8 @@ import { UserService } from '../../shared/services/user.service';
 import { User } from '../../shared/models/user';
 
 @Component({
-  selector: 'ngx-user-profile',
   standalone: false,
+  selector: 'ngx-user-profile',
   templateUrl: './user-profile.component.html',
   styleUrls: ['./user-profile.component.scss']
 })

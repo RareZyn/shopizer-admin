@@ -15,6 +15,7 @@ import { Description } from '../../shared/models/description';
 declare var jquery: any;
 declare var $: any;
 @Component({
+  standalone: false,
   selector: 'add-box',
   templateUrl: './add-box.component.html',
   styleUrls: ['./add-box.component.scss'],

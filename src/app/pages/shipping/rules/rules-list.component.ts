@@ -10,6 +10,7 @@ import { error } from '@angular/compiler/src/util';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
+  standalone: false,
   selector: 'ngx-rules-list',
   templateUrl: './rules-list.component.html',
   styleUrls: ['./rules-list.component.scss']

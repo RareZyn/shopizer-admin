@@ -6,6 +6,7 @@ import { StoreService } from '../services/store.service';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-retailer-list',
   templateUrl: './retailer-list.component.html',
   styleUrls: ['./retailer-list.component.scss']

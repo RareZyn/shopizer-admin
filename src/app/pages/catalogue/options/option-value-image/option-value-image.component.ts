@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-option-value-image',
   templateUrl: './option-value-image.component.html',
   styleUrls: ['./option-value-image.component.scss']

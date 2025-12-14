@@ -12,6 +12,7 @@ import { ConfigService } from '../../shared/services/config.service';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
+  standalone: false,
   selector: 'ngx-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss']

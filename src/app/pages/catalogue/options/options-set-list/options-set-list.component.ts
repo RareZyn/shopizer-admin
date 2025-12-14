@@ -8,6 +8,7 @@ import { ShowcaseDialogComponent } from '../../../shared/components/showcase-dia
 import { NbDialogService } from '@nebular/theme';
 import { ToastrService } from 'ngx-toastr';
 @Component({
+  standalone: false,
   selector: 'ngx-options-set-list',
   templateUrl: './options-set-list.component.html',
   styleUrls: ['./options-set-list.component.scss']

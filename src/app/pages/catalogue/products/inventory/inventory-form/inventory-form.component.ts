@@ -12,6 +12,7 @@ import { validators } from '../../../../shared/validation/validators';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @Component({
+  standalone: false,
   selector: 'ngx-inventory-form',
   templateUrl: './inventory-form.component.html',
   styleUrls: ['./inventory-form.component.scss']

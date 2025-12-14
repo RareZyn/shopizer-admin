@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { CategoryService } from '../services/category.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-category-detail',
   templateUrl: './category-detail.component.html',
   styleUrls: ['./category-detail.component.scss']

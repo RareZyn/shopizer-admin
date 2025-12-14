@@ -5,6 +5,7 @@ import { OptionService } from '../../options/services/option.service';
 import { OptionValuesService } from '../../options/services/option-values.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-products-groups-creation',
   templateUrl: './products-groups-creation.component.html',
   styleUrls: ['./products-groups-creation.component.scss']

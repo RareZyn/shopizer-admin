@@ -13,6 +13,7 @@ import { slugify } from '../../../../shared/utils/slugifying';
 import { Location } from '@angular/common';
 
 @Component({
+  standalone: false,
   selector: 'ngx-price-form',
   templateUrl: './price-form.component.html',
   styleUrls: ['./price-form.component.scss']

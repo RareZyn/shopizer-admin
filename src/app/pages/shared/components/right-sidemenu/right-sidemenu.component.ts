@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
+  standalone: false,
   selector: 'ngx-right-sidemenu',
   templateUrl: './right-sidemenu.component.html',
   styleUrls: ['./right-sidemenu.component.scss']

@@ -10,6 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { validators } from '../../../shared/validation/validators';
 
 @Component({
+  standalone: false,
   selector: 'ngx-option',
   templateUrl: './option.component.html',
   styleUrls: ['./option.component.scss']

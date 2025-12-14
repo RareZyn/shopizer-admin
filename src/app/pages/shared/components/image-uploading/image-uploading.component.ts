@@ -29,6 +29,7 @@ import { ViewportRuler } from '@angular/cdk/overlay';
 import { UserService } from "../../../../@core/mock/users.service";
 
 @Component({
+  standalone: false,
   selector: "ngx-image-uploading",
   templateUrl: "./image-uploading.component.html",
   styleUrls: ["./image-uploading.component.scss"],

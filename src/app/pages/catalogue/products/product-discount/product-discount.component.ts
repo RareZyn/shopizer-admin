@@ -8,6 +8,7 @@ import { ProductService } from '../services/product.service';
 
 
 @Component({
+  standalone: false,
   selector: 'ngx-product-discount',
   templateUrl: './product-discount.component.html',
   styleUrls: ['./product-discount.component.scss']

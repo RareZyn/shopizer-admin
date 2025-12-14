@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-paginator',
   templateUrl: './paginator.component.html',
   styleUrls: ['./paginator.component.scss']

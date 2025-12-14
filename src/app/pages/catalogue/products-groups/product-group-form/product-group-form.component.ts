@@ -11,6 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { ProductService } from '../../products/services/product.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-product-group-form',
   templateUrl: './product-group-form.component.html',
   styleUrls: ['./product-group-form.component.scss']

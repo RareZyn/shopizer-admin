@@ -4,6 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { StorageService } from '../shared/services/storage.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-store-management',
   templateUrl: './store-management.component.html',
   styleUrls: ['./store-management.component.scss']

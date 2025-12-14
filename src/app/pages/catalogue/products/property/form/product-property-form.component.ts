@@ -8,6 +8,7 @@ import { ToastrService } from 'ngx-toastr';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
+  standalone: false,
     selector: 'ngx-product-property-form',
     templateUrl: './product-property-form.component.html',
     styleUrls: ['./product-property-form.component.scss']

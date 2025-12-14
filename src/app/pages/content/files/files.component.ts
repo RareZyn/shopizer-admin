@@ -7,6 +7,7 @@ import { Lightbox } from 'ngx-lightbox';
 import { MalihuScrollbarService } from 'ngx-malihu-scrollbar';
 
 @Component({
+  standalone: false,
   selector: 'files-content',
   templateUrl: './files.component.html',
   styleUrls: ['./files.component.scss'],

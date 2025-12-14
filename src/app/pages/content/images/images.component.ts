@@ -11,6 +11,7 @@ import { TreeModel, DownloadModeEnum, ConfigInterface } from 'ng6-file-man';
 import xhook from 'xhook';
 
 @Component({
+  standalone: false,
   selector: 'images-table',
   templateUrl: './images.component.html',
   styleUrls: ['./images.component.scss'],

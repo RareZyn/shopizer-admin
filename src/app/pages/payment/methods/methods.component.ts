@@ -7,6 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { error } from '@angular/compiler/src/util';
 
 @Component({
+  standalone: false,
   selector: 'ngx-payment-methods',
   templateUrl: './methods.component.html',
   styleUrls: ['./methods.component.scss']

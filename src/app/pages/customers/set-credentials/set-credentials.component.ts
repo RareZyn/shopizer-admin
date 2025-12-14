@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
+  standalone: false,
   selector: 'ngx-set-credentials',
   templateUrl: './set-credentials.component.html',
   styleUrls: ['./set-credentials.component.scss']

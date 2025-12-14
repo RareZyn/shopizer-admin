@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { error } from '@angular/compiler/src/util';
 @Component({
+  standalone: false,
   selector: 'ngx-shipping-methods',
   templateUrl: './methods.component.html',
   styleUrls: ['./methods.component.scss']

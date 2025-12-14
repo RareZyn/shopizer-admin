@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { error } from '@angular/compiler/src/util';
 @Component({
+  standalone: false,
   selector: 'ngx-order-list',
   templateUrl: './order-list.component.html',
   styleUrls: ['./order-list.component.scss']

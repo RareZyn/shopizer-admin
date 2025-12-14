@@ -14,6 +14,7 @@ import { ListingService } from '../../../shared/services/listing.service';
 
 
 @Component({
+  standalone: false,
   selector: 'ngx-products-list',
   templateUrl: './products-list.component.html',
   styleUrls: ['./products-list.component.scss']

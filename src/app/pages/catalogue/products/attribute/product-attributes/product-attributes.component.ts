@@ -23,6 +23,7 @@ export interface TreeNode {
 }
 
 @Component({
+  standalone: false,
   selector: 'ngx-product-attributes',
   templateUrl: './product-attributes.component.html',
   styleUrls: ['./product-attributes.component.scss']

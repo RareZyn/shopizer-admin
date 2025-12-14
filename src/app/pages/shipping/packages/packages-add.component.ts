@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { SharedService } from '../services/shared.service';
 import { ToastrService } from 'ngx-toastr';
 @Component({
+  standalone: false,
   selector: 'ngx-packages-add',
   templateUrl: './packages-add.component.html',
   styleUrls: ['./packages-add.component.scss'],

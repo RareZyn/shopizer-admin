@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { StoreService } from '../services/store.service';
 
 @Component({
+  standalone: false,
   selector: 'ngx-store-details',
   templateUrl: './store-details.component.html',
   styleUrls: ['./store-details.component.scss']
